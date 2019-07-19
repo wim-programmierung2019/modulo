@@ -10,9 +10,10 @@ public class Main {
         int Anfangszahl = 11;
         int Zahlzwei = 5;
 
-        
-        while (Anfangszahl>= Zahlzwei){
-        Anfangszahl = Anfangszahl - Zahlzwei;}
+        while (Anfangszahl >= Zahlzwei){
+            // So lange die zweite Zahl abziehen bis nur noch der Rest uebrig bleibt
+            Anfangszahl = Anfangszahl - Zahlzwei;
+        }
         System.out.println(Anfangszahl);
     }
     

@@ -7,6 +7,13 @@ public class Main {
         // Berechnen Sie den Modulowert einer Anfangszahl und einer zweiten Zahl 
         // durch die geteilt wird, d.h. den “Rest” nach dem Teilen. 
         // Beispiel 17 mod 5 = 2
+        double anfangszahl=17;
+        double divisor=5;
+        System.out.println(divisor+anfangszahl);
+        do {anfangszahl=anfangszahl-divisor;}
+        while (anfangszahl>divisor);
+        System.out.println("Rest:"+anfangszahl);
+    
 
     }
     

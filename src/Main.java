@@ -22,7 +22,7 @@ public class Main {
             durchlauf += 1;
         }
          System.out.println("Restwert: " + zahl1);
-         System.out.println("Durchlauf:efw " + durchlauf);
+         System.out.println("Durchlauf: " + durchlauf);
     }
     
 }

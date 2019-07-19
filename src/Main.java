@@ -9,7 +9,7 @@ public class Main {
         // Beispiel 17 mod 5 = 2
         int Anfangszahl = 11;
         int Zahlzwei = 5;
-        int Modulowert;
+
         
         while (Anfangszahl>= Zahlzwei){
         Anfangszahl = Anfangszahl - Zahlzwei;}
